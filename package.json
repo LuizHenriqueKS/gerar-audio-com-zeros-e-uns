@@ -1,0 +1,33 @@
+{
+  "name": "gerar-audio-com-zeros-e-uns",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizHenriqueKS/gerar-audio-com-zeros-e-uns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueKS/gerar-audio-com-zeros-e-uns/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueKS/gerar-audio-com-zeros-e-uns#readme",
+  "dependencies": {
+    "random-all": "^1.1.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
