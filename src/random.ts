@@ -2,9 +2,10 @@ import * as da from 'z-deep-audio';
 import path from 'path';
 import randomInt from './util/randomInt';
 import generateZerosOrOnes from './util/generateZerosOrOnes';
+import fs from 'fs';
 
 async function main() {
-  const directory = path.resolve('./out/random/');
+  const directory = path.resolve('./out3/random/');
   const count = 100;
   const maxLength = 6;
   const samples: string[] = [];
@@ -25,6 +26,7 @@ async function main() {
   }
 
   console.log('Generating áudios...');
+  fs.mkdirSync(directory, { recursive: true });
 
   let progress = 0;
   for (const numbers of samples) {
